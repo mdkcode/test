@@ -1,0 +1,33 @@
+[
+      {
+        "name": "Ada Lovlre",
+        "book": "Summer Nights",
+        "publishing_house": "Penguin House",
+        "id": 1
+      },
+      {
+        "name": "Beatrice Fah",
+        "book": "Eternal Flames",
+        "publishing_house": "Tor",
+        "id": 2
+      },
+      {
+        "name": "Jenna Tanami",
+        "book": "Home",
+        "publishing_house": "Orbit",
+        "id": 3
+      },
+      {
+        "name": "S.Orston",
+        "book": "To Be Heard",
+        "publishing_house": "Simon Shusters",
+        "id": 4
+      },
+      {
+        "name": "Peter Oh",
+        "book": "Over Borders",
+        "publishing_house": "Waterstone",
+        "id": 5
+      }
+    ]
+  
