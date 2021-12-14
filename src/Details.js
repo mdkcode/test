@@ -1,6 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Table from "./Table";
+import cover from './assets/img/cover.png';
+import image from './assets/img/image.png';
+import full from './assets/img/full.jpg';
+import tess from './assets/img/tess.jpg';
+import title from './assets/img/title.jpg';
+import unnamed from './assets/img/unnamed.jpg';
+
 const Details = props => {
   const { username, email, city, phone } =
     (props.location && props.location.state) || {};
@@ -32,29 +39,29 @@ const Details = props => {
     </div>
   <div class="row m-3">
     <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src="/img/image.PNG" alt="..." class="img-responsive img-rounded"></img>
+    <img src={image} alt="..." class="img-responsive img-rounded"></img>
     <p>Chosen as one of the best books by readers</p>
     </div>
     <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src="/img/tess-cover.JPG" alt="..." class="img-responsive img-rounded"></img>
+    <img src={cover} alt="..." class="img-responsive img-rounded"></img>
     <p>Chosen as one of the best books by readers</p>
     </div>
     <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src="/img/unnamed.JPG" alt="..." class="img-responsive img-rounded"></img>
+    <img src={full} alt="..." class="img-responsive img-rounded"></img>
     <p>Chosen as one of the best books by readers</p>
     </div>
   </div>
   <div class="row m-3">
     <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src="/img/2cover.PNG" alt="..." class="img-responsive img-rounded"></img>
+    <img src={tess} alt="..." class="img-responsive img-rounded"></img>
     <p>Chosen as one of the best books by readers</p>
     </div>
     <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src="/img/title.JPG" alt="..." class="img-responsive img-rounded"></img>
+    <img src={title} alt="..." class="img-responsive img-rounded"></img>
     <p>Chosen as one of the best books by readers</p>
     </div>
     <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src="/img/full.JPG" alt="..." class="img-responsive img-rounded"></img>
+    <img src={unnamed} alt="..." class="img-responsive img-rounded"></img>
     <p>Chosen as one of the best books by readers</p>
     </div>
   </div>
