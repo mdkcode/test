@@ -13,10 +13,10 @@ const Details = props => {
     (props.location && props.location.state) || {};
   return (
     <div className="App">
-    <div class="container-fluid">
-    <div class="row">
-    <div class="col-lg-12 bg-primary p-2">
-     <h3 class="text-center">Book Blog</h3>
+    <div className="container-fluid">
+    <div className="row">
+    <div className="col-lg-12 bg-primary p-2">
+     <h3 className="text-center">Book Blog</h3>
   </div>
   <div>
   <NavLink to="/" className="active">
@@ -37,38 +37,38 @@ const Details = props => {
         </div>
       </div>
     </div>
-  <div class="row m-3">
-    <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src={image} alt="..." class="img-responsive img-rounded"></img>
+  <div className="row m-3">
+    <div className="d-flex flex-column justify-content-center align-items-center col">
+    <img src={image} alt="..." className="img-responsive img-rounded"></img>
     <p>Chosen as one of the best books by readers</p>
     </div>
-    <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src={cover} alt="..." class="img-responsive img-rounded"></img>
+    <div className="d-flex flex-column justify-content-center align-items-center col">
+    <img src={cover} alt="..." className="img-responsive img-rounded"></img>
     <p>Chosen as one of the best books by readers</p>
     </div>
-    <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src={full} alt="..." class="img-responsive img-rounded"></img>
-    <p>Chosen as one of the best books by readers</p>
-    </div>
-  </div>
-  <div class="row m-3">
-    <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src={tess} alt="..." class="img-responsive img-rounded"></img>
-    <p>Chosen as one of the best books by readers</p>
-    </div>
-    <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src={title} alt="..." class="img-responsive img-rounded"></img>
-    <p>Chosen as one of the best books by readers</p>
-    </div>
-    <div class="d-flex flex-column justify-content-center align-items-center col">
-    <img src={unnamed} alt="..." class="img-responsive img-rounded"></img>
+    <div className="d-flex flex-column justify-content-center align-items-center col">
+    <img src={full} alt="..." className="img-responsive img-rounded"></img>
     <p>Chosen as one of the best books by readers</p>
     </div>
   </div>
+  <div className="row m-3">
+    <div className="d-flex flex-column justify-content-center align-items-center col">
+    <img src={tess} alt="..." className="img-responsive img-rounded"></img>
+    <p>Chosen as one of the best books by readers</p>
+    </div>
+    <div className="d-flex flex-column justify-content-center align-items-center col">
+    <img src={title} alt="..." className="img-responsive img-rounded"></img>
+    <p>Chosen as one of the best books by readers</p>
+    </div>
+    <div className="d-flex flex-column justify-content-center align-items-center col">
+    <img src={unnamed} alt="..." className="img-responsive img-rounded"></img>
+    <p>Chosen as one of the best books by readers</p>
     </div>
   </div>
-  <div class="col-lg-12 bg-primary p-2">
-     <h3 class="text-center">Best Books of the Month</h3>
+    </div>
+  </div>
+  <div className="col-lg-12 bg-primary p-2">
+     <h3 className="text-center">Best Books of the Month</h3>
   </div>
    <Table />
     </div>
